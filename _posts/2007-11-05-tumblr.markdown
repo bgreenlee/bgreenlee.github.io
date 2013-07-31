@@ -1,0 +1,10 @@
+--- 
+wordpress_id: 79
+title: Tumblr
+date: 2007-11-05 09:02:32 +00:00
+wordpress_url: http://blog.footle.org/2007/11/05/tumblr/
+layout: post
+---
+I decided to give <a href="http://en.wikipedia.org/wiki/Tumblog">tumblogging</a> a <a href="http://tumblr.footle.org">try</a>. I'm hoping that ease of use and lowered expectations will get me to post more often, and I'm liking it so far. It covers the large middle ground between blogging and <a href="http://twitter.com/bgreenlee">twittering</a>. I can put up something interesting without feeling like I need to construct a coherent post around it, and I don't feel like I'm pestering people with twitters (not to mention that it allows for richer media types).
+
+I realize I could just do the same thing on this blog if I wanted to, but there's something about the minimalist formatting and ease-of-use that just seems to work. So I'll continue to post longer pieces here (I've got a number that I need to just sit down and write), and I'll keep posting inane comments to Twitter, but I imagine that the majority of interesting things I find will end up on my <a href="http://tumblr.footle.org">tumblelog</a>.

@@ -1,0 +1,8 @@
+--- 
+wordpress_id: 9
+title: Falling
+date: 2005-07-13 23:16:52 +00:00
+wordpress_url: http://footle.org/blog/?p=9
+layout: post
+---
+<a href="http://www.izpitera.ru/lj/tetka.swf">Cool and a bit disturbing, and strangely addictive.</a> Use your mouse to move her around. Pretty nice bit of programming.

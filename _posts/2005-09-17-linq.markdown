@@ -1,0 +1,8 @@
+--- 
+wordpress_id: 29
+title: LINQ
+date: 2005-09-17 09:49:05 +00:00
+wordpress_url: http://footle.org/blog/?p=29
+layout: post
+---
+<p>I'm not a C#/.Net programmer, but <a href="http://msdn.microsoft.com/netframework/future/linq/default.aspx">LINQ</a> is too cool. You can basically use SQL-like querying on just about any collection, whether it be an array in memory, a database, and XML structure. This is one of those "why didn't anyone think of this before?" things. Yes, there have been similar tools for querying objects for a long time, but nothing this elegant. <a href="http://channel9.msdn.com/Showpost.aspx?postid=114680">Watch the video</a> for a quick (well, 30 minute) intro, or, if you prefer text, read the <a href="http://msdn.microsoft.com/netframework/future/linq/default.aspx?pull=/library/en-us/dndotnet/html/linqprojectovw.asp">overview document</a>.</p>

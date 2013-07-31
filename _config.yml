@@ -1,0 +1,6 @@
+pygments: true
+permalink: pretty
+#lsi: true
+markdown: rdiscount
+paginate: 20
+paginate_path: "/page/:num"

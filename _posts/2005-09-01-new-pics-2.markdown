@@ -1,0 +1,9 @@
+--- 
+wordpress_id: 27
+title: New Pics
+date: 2005-09-01 11:38:22 +00:00
+wordpress_url: http://footle.org/blog/?p=27
+layout: post
+---
+<p><a href="http://flickr.com/photos/bgreenlee"><img src="http://static.flickr.com/23/38261653_30bd841392_m.jpg" style="float: left; margin: 0 10px 10px 0; border: 1px solid black;"/></a>Finally got off my butt and posted some more pics to <a href="http://flickr.com/photos/bgreenlee">Flickr</a>.</p>
+<br style="clear: both"/>

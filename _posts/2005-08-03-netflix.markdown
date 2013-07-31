@@ -1,0 +1,12 @@
+--- 
+wordpress_id: 16
+title: Netflix
+date: 2005-08-03 00:05:18 +00:00
+wordpress_url: http://footle.org/blog/?p=16
+layout: post
+---
+<p>I finally caved in and signed up for Netflix, as you'll see if you look on the bottom of the sidebar. I've been a bit of Luddite, preferring to get my movies from one of the great local video stores. But we recently moved and now our closest video store is about a mile away--as opposed to about 200 feet away--so our movie-watching has dropped dramatically (while our watching of mind-numbing reality shows has increased accordingly).</p>
+<p>It seems to me that the queue is the key feature of Netflix. I can't count the number of times we've seen a preview for a movie and thought "We should rent that." Then you get to the video store and you spend half an hour walking up and down the Recent Releases trying to figure out what to get. Then again, sometimes you're in the mood for a particular kind of movie, and it might not be what's next in your queue.</p>
+<p>Hmmm...here's a business idea to help out all those struggling video stores in the new Netflix world: make an online service (let's call it FooFlix) where people can browse movies, get recommendations, and add movies to a queue, much like Netflix. But then install terminals in video stores and tie member's FooFlix accounts to their video store account. Then they scan/swipe/enter their store card/code in the terminal and it brings up the movies in their queue and highlights the ones that the video store has available. The stores would also be able to see what their customers (or an aggregate of all FooFlix customers) have in their queues, so they know what they should be ordering.</p>
+<p>As for a revenue model, you probably couldn't get away with charging customers for the service, but you could charge video stores to rent the terminal, and perhaps for customer queue data. You could probably do some pretty targeted advertising on the site, too.</p>
+<p>Probably not going to make me a billionare. If anyone steals the idea, at least send me a postcard or something.</p>

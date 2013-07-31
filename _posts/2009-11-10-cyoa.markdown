@@ -1,0 +1,11 @@
+--- 
+wordpress_id: 195
+title: CYOA
+date: 2009-11-10 22:16:20 +00:00
+excerpt: "cyoa: Impressive analysis of Choose Your Own Adventure books, a fixture of my childhood."
+wordpress_url: http://tumblr.footle.org/post/239997191
+layout: link
+remote_url: http://samizdat.cc/cyoa/
+---
+Impressive analysis of Choose Your Own Adventure books, a fixture of my childhood.
+

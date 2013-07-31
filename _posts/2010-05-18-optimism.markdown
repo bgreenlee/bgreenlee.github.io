@@ -1,0 +1,9 @@
+--- 
+wordpress_id: 183
+title: "Raganwald: Optimism"
+date: 2010-05-18 14:10:22 +00:00
+excerpt: Optimism
+wordpress_url: http://tumblr.footle.org/post/611146332
+layout: link
+remote_url: http://github.com/raganwald/homoiconic/blob/2f4bc23476820f665f21f6eb72920e8e8af1dffc/2009-05-01/optimism.md
+---

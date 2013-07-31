@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8"/>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+   <title>{{ page.title }}</title>
+   <meta name="description" content="footle.org is the personal site of Brad Greenlee."/>
+   <meta name="author" content="Brad Greenlee"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+   <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+   <![endif]-->
+   <link rel="stylesheet" href="/css/style.css" media="screen"/>
+</head>
+<body>
+
+  <div id="container">
+
+  <header>
+    <hgroup id="title">
+    <h1><a href="/" title="(intr.v.) 1. To waste time; trifle. 2. To talk nonsense. (n.) Nonsense; foolishness">footle</a></h1>
+    <h2>(intr.v.) 1. To waste time; trifle. 2. To talk nonsense. (n.) Nonsense; foolishness</h2>
+    </hgroup>
+    <nav>
+      <ul>
+        <li><a href="/">blog</a></li>
+        <li><a href='/about'>about</a></li>
+        <li><a href='/projects'>projects</a></li>
+        <li class="break">&nbsp;</li>
+        <li class="feed">
+          <a href="http://feeds.feedburner.com/footle" rel="alternate" type="application/rss+xml">
+            <img src="/images/feed-icon16x16.png" alt="Subscribe via RSS"/>
+            subscribe
+          </a>
+        </li>
+        <li class="feed">
+          <a href="https://twitter.com/footlelinks" rel="alternate" type="application/twitter">
+            <img src="/images/twitter_newbird_blue_sm.png" alt="Follow on Twitter"/>
+            follow
+          </a>
+        </li>
+      </ul>      
+    </nav>
+  </header>
+
+  <div id="main" role="main">
+
+  {{ content }}
+
+  </div>
+
+  <footer>
+    <p id="copyright">Copyright &copy; {{ 'now' | date: "%Y" }}<br/><a href="mailto:brad@footle.org">Brad Greenlee</a></p>
+  </footer>
+
+  </div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2131693-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

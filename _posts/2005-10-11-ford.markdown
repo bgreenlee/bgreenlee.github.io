@@ -1,0 +1,8 @@
+--- 
+wordpress_id: 35
+title: Shot of the Week
+date: 2005-10-11 22:45:05 +00:00
+wordpress_url: http://footle.org/blog/?p=35
+layout: post
+---
+<a href="http://www.flickr.com/photos/bgreenlee/51785879/"><img src="http://static.flickr.com/28/51785879_e345edcb47_m.jpg" style="border: 1px solid black"/></a>

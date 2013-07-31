@@ -1,0 +1,8 @@
+--- 
+wordpress_id: 52
+title: Database War Stories
+date: 2006-04-30 08:46:58 +00:00
+wordpress_url: http://footle.org/blog/?p=52
+layout: post
+---
+There's an interesting series of posts over at <a href="http://radar.oreilly.com/">O'Reilly Radar</a>. Tim O'Reilly asked people how they were using databases in their "Web 2.0" applications (although I think the Web 2.0 part of it is for the most part irrelevant). The responses so far have made for interesting reading. So far we've heard from <a href="http://radar.oreilly.com/archives/2006/04/web_20_and_databases_part_1_se.html">Second Life</a>, <a href="http://radar.oreilly.com/archives/2006/04/database_war_stories_2_bloglin.html">Bloglines and Memeorandum</a>, <a href="http://radar.oreilly.com/archives/2006/04/database_war_stories_3_flickr.html">Flickr</a>, <a href="http://radar.oreilly.com/archives/2006/04/database_war_stories_4_nasa_wo.html">NASA World Wind</a>, and <a href="http://radar.oreilly.com/archives/2006/04/database_war_stories_5_craigsl.html">craigslist</a>. One of the lessons learned is that with a high-traffic site, at some point you have to break your database up so that the "hot" data is spread across a number of boxes. This got me thinking. It should be possible to build a tool that analyzes your database usage and, given a number of slave boxes to configure as it sees fit, automatically configures masters and slaves and distributes your data across those boxes as necessary. This would not be a one-time only process either; it would continue to monitor usage and performance and adjust accordingly. Certainly not an easy task, but should be doable.
