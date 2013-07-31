@@ -3,5 +3,5 @@ permalink: pretty
 #lsi: true
 markdown: rdiscount
 paginate: 20
-baseurl: /bgreenlee.github.io
+baseurl: http://footle.org
 #paginate_path: "/page/:num"  # need Jekyll 1.1 for this to work
