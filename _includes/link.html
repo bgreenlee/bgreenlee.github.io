@@ -1,6 +1,6 @@
 <article class="blog link">
   <header>
-    <time datetime="{{ post.date | iso8601_date }}" pubdate>{{ post.date | nice_date }}</time>
+    <time datetime="{{ post.date | iso8601_date }}" pubdate>{{ post.date | date: "%B %d" }}<br>{{ post.date | date: "%Y" }}</time>
     <h1>
       <a href="{{ post.remote_url }}">{{ post.title }}</a>
       <a href="{{ post.url }}" rel="bookmark" title="Permalink for this post" class="permalink">[&sect;]</a>

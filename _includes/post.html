@@ -1,6 +1,6 @@
 <article class="blog post">
   <header>
-    <time datetime="{{ post.date | iso8601_date }}" pubdate>{{ post.date | nice_date }}</time>
+    <time datetime="{{ post.date | iso8601_date }}" pubdate>{{ post.date | date: "%B %d" }}<br>{{ post.date | date: "%Y" }}</time>
     <h1>
       <a href="{% if post.remote_url %}{{ post.remote_url }}{% else %}{{ post.url }}{% endif %}" rel="bookmark" title="link to this post">{{ post.title }}</a>
     </h1>

@@ -8,4 +8,4 @@ layout: post
 
 — <a href="http://worrydream.com">Brett Victor</a>, <a href="http://vimeo.com/71278954">The Future of Programming</a>
 
-<iframe src="http://player.vimeo.com/video/71278954?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/71278954">Bret Victor - The Future of Programming</a></p>
+<iframe src="http://player.vimeo.com/video/71278954?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
