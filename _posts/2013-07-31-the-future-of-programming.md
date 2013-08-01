@@ -10,4 +10,4 @@ layout: post
 
 <iframe src="http://player.vimeo.com/video/71278954?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-He's posted references and follow-up notes at http://worrydream.com/dbx/.
+He's posted references and follow-up notes at [http://worrydream.com/dbx/]().
