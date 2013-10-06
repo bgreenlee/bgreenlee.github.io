@@ -1,7 +1,7 @@
 ---
 published: true
 title: Utter Insanity
-date: {}
+date: 2005-11-02 12:02:40 +00:00
 layout: post
 ---
 
