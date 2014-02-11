@@ -209,7 +209,7 @@ td { vertical-align: top; }
 
 /* ==|== primary styles ===================================================== */
 
-body { background-color: #fff; font-family: "OPTIMA", "Helvetica Neue", Helvetica, sans-serif; font-size: 18px; color: #333; line-height: 1.5;}
+body { background-color: #fff; font-family: "OPTIMA", "Helvetica Neue", Helvetica, sans-serif; font-size: 18px; color: #333; line-height: 1.4;}
 a, a:visited { text-decoration: none; color: #669; }
 a:hover { text-decoration: underline; }
 blockquote { border-left: 1px dotted #333; padding-left: 8px; margin-left: 16px;}
