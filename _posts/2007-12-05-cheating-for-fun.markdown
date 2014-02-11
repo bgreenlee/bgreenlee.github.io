@@ -11,7 +11,7 @@ This got me thinking...how *would* you cheat? You'd just have to write a Scrambl
 
 Anyway, here you go:
 
-* [boggler.rb](https://gist.github.com/1223319)
+* [boggler.rb](https://gist.github.com/bgreenlee/8946388)
 * [words.gz](/files/words.gz)
 
 I did try this out a couple times on Scramble and won handily. There's really not much fun in that, though.
