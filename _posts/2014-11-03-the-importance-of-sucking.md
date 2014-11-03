@@ -4,8 +4,6 @@ date: 2014-11-03 10:09:52 -0800
 layout: post
 ---
 
-The importance of sucking.
-
 One of the defining charactaristics of a successful programmer is being OK with the feeling that you have no idea what you're doing. I've been programming for over 30 years and it still happens to me regularly. The key is pushing on through that dark period, trusting that eventually you'll catch a glimmer of light and it will slowly start to make sense.
 
 There are a few tricks I've picked up to help me get over that initial hump. The first is to find a tutorial someone has written, and just follow along, just to get *something* working. Once I have something working, no matter how basic, not only do I start to get a better sense of how all the pieces fit together, but I can start tweaking it and learn from how it responds.
