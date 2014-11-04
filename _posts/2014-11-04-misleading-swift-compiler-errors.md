@@ -26,7 +26,7 @@ for i in 0..<0 {
 
 That's just a for loop from zero up to, but not including, zero. And this code is fine, doing what it is supposed to do—nothing.
 
-However, try making the ending value of the loop negative. This should be equivalent to the above:
+However, try making the ending value of the loop less than the starting value. This should be equivalent to the above:
 
 ```swift
 for i in 0...(-1) {
