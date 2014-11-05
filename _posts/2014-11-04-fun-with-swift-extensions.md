@@ -73,7 +73,7 @@ You have to do:
 
 ```swift
 if someDate.compare(anotherDate) == NSComparisonResult.OrderedAscending ||
-        lhs.isEqualToDate(rhs) { ...
+        someDate.isEqualToDate(anotherDate) { ...
 ```
 
 Let's fix that. According to [Apple's docs](https://developer.apple.com/library/ios/documentation/General/Reference/SwiftStandardLibraryReference/Comparable.html#//apple_ref/doc/uid/TP40014608-CH16-SW1), we only need to implement `<` and `==` to conform to the `Comparable` protocol. Pretty clever, since with just those two, you can derive `<=`, `>`, `>=`, and `!=`.
