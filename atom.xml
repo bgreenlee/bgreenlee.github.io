@@ -1,27 +1,28 @@
 ---
 layout: null
 ---
+
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
- <title>footle</title>
- <link href="http://footle.org/atom.xml" rel="self"/>
- <link href="http://footle.org/"/>
+
+ <title>{{ site.title }}</title>
+ <link href="{{ site.url }}/atom.xml" rel="self"/>
+ <link href="{{ site.url }}/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://footle.org/</id>
+ <id>{{ site.url }}</id>
  <author>
-   <name>Brad Greenlee</name>
-   <email>brad@footle.org</email>
+   <name>{{ site.author.name }}</name>
+   <email>{{ site.author.email }}</email>
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="{% if post.remote_url %}{{ post.remote_url }}{% else %}http://footle.org{{ post.url }}{% endif %}"/>
+   <link href="{{ site.url }}{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://footle.org{{ post.id }}</id>
+   <id>{{ site.url }}{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
- 
+
 </feed>

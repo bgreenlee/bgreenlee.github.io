@@ -9,6 +9,6 @@ I've been too tired today to do any actual work, so I've spent much of the day c
 
 Anyway, I just wanted to share one of the more interesting stats from our analytics (<a href="http://www.haveamint.com/">Mint</a>--very tasty):
 
-<img src="/images/go_firefox.png" />
+<img src="/public/images/go_firefox.png" />
 
 That's a lovely thing to see. Granted, these are largely very tech-savvy, early-adopter people at this stage, but it's heartening to see IE getting the beatdown.

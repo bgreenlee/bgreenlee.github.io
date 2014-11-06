@@ -7,6 +7,6 @@ layout: post
 ---
 The July 4th New Yorker cover was classic:
 
-<a href="/images/New_Yorker___July_4_2005__Small_.jpg" title="New Yorker   July 4 2005  Small ">
-<img src="/images/thumb_New_Yorker___July_4_2005__Small_.jpg" width="146" height="200" alt="New Yorker   July 4 2005  Small "/>
+<a href="/public/images/New_Yorker___July_4_2005__Small_.jpg" title="New Yorker   July 4 2005  Small ">
+<img src="/public/images/thumb_New_Yorker___July_4_2005__Small_.jpg" width="146" height="200" alt="New Yorker   July 4 2005  Small "/>
 </a>

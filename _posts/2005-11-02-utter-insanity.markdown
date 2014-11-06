@@ -7,7 +7,7 @@ layout: post
 
 Video of Dan Osman speed-soloing up Bear's Reach at Lover's Leap (near South Lake Tahoe, CA). Need I say don't try this at home? <a href="http://www.ebaumsworld.com/video/watch/1220/">http://www.ebaumsworld.com/video/watch/1220/</a>
 
-<img src="/images/dano_leap_sm.jpg" width="220" height="165" alt="Dan Osman dyno on Bear&#39;s Reach" style="float: left; margin: 0px 10px 10px 0px; border: 1px solid black;"/>
+<img src="/public/images/dano_leap_sm.jpg" width="220" height="165" alt="Dan Osman dyno on Bear&#39;s Reach" style="float: left; margin: 0px 10px 10px 0px; border: 1px solid black;"/>
 
 (I've done this route, but it took me more like 2 hours--not 4 minutes and 25 seconds.)
 

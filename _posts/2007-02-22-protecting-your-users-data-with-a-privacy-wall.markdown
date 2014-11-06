@@ -16,11 +16,11 @@ We deal with a lot of very private data at <a href="http://www.wesabe.com">Wesab
 
 <p>Let's say we're designing an application that lets members keep a list of their deepest, darkest secrets. We need a database with at least two tables: 'users' and 'secrets'. The first pass database model looks like this:</p>
 
-<img src="/images/standard-model.png" alt="Standard Model" height="111" width="348"/>
+<img src="/public/images/standard-model.png" alt="Standard Model" height="111" width="348"/>
 
 <p style="clear:both">The problem with this schema is that anyone with access to the database can easily find out all the secrets of a given user. With one small change, however, we can make this extremely difficult, if not impossible:</p>
 
-<img src="/images/privacy-wall2.png" alt="Privacy Wall" height="111" width="348"/>
+<img src="/public/images/privacy-wall2.png" alt="Privacy Wall" height="111" width="348"/>
 
 <p style="clear:both">The special sauce is the 'secret_key', which is nothing more than a cryptographic hash of the user's username and their password <a href="#footnote_2">[2]</a>. When the user logs in, we can generate the hash and store it in the session <a href="#footnote_3">[3]</a>. Whenever we need to query the user's secrets, we use that key to look them up instead of the user id. Now, if some baddie gets ahold of the database, they will still be able to read everyone's secrets, but they won't know which secret belongs to which user, and there's no way to look up the secrets of a given user.</p>
 

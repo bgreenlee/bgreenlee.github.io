@@ -5,7 +5,7 @@ date: 2005-09-27 16:57:00 +00:00
 wordpress_url: http://footle.org/blog/?p=33
 layout: post
 ---
-<p><img src="/images/thescream_crop.jpg" width="165" height="202" alt="The Scream" style="float: left; padding: 0px 10px 10px 0px;"/>We're in the middle of a fairly major site redesign at <a href="http://triporama.com">Triporama</a>, and I was doing my best to have the layout be as purely CSS as possible, replacing the previous table-heavy layout. It's turned out to be a major headache, and I'm taking a step back now and reimplementing parts of the layout with tables.</p>
+<p><img src="/public/images/thescream_crop.jpg" width="165" height="202" alt="The Scream" style="float: left; padding: 0px 10px 10px 0px;"/>We're in the middle of a fairly major site redesign at <a href="http://triporama.com">Triporama</a>, and I was doing my best to have the layout be as purely CSS as possible, replacing the previous table-heavy layout. It's turned out to be a major headache, and I'm taking a step back now and reimplementing parts of the layout with tables.</p>
 
 <p>One problem with CSS today is that every different browser has different levels of support for the different versions of CSS, whereas tables have been around for so long that most browsers in use today handle them fairly similarly. The really big problem with CSS, though, is IE. Internet Explorer is a <a href="http://www.positioniseverything.net/explorer.html">CSS bug fest</a>. It would be great to say "fuck IE," (actually, I say that almost every day) but it is unfortunately still the most widely used browser.</p>
 

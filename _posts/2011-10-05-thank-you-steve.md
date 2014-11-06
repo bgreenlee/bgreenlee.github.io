@@ -13,4 +13,4 @@ I still have that IIe, in a suitcase in my garage. I think I'll boot it up tonig
 
 **Update:**
 
-![IIe Thanks](/images/thanks-iie.jpg)
+![IIe Thanks](/public/images/thanks-iie.jpg)

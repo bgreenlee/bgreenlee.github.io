@@ -1,23 +1,40 @@
 ---
 layout: default
-title: footle
+title: Home
 ---
 
-<div id="page">
+<div class="posts">
   {% for post in paginator.posts %}
-    {% case post.layout %}
-    {% when 'post' %}
-       {% include post.html %}
-    {% when 'link' %}
-       {% include link.html %}
-    {% endcase %}
-  {% endfor %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{% if post.remote_url %}{{ post.remote_url }}{% else %}{{ post.url }}{% endif %}" rel="bookmark" title="link to this post">
+        {{ post.title }}
+      </a>
+      {% if post.remote_url %}
+        <a href="{{ post.url }}" rel="bookmark" title="Permalink for this post" class="permalink">[&sect;]</a>
+      {% endif %}
+    </h1>
 
-  {% if paginator.page < paginator.total_pages %}
-  <nav id="pagination">
-    <a href="/page{{paginator.next_page}}">
-      <button class="blue-pill">More &gt;</button>
-    </a>
-  </nav>
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
