@@ -1,7 +1,8 @@
---- 
+---
 title: "Sublime Text Guide"
 date: 2014-11-09 07:16:54 -0800
-layout: post
+layout: link
+remote_url: "/sublime-text/"
 tags: sublime tutorial
 ---
 
