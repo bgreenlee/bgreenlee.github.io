@@ -2,7 +2,6 @@
 layout: page-forkme
 title: Sublime Text
 ---
-<p class="message">This guide was originally written as a presentation given internally at Etsy. Hopefully I've scrubbed all the Etsy-specific bits.</p>
 <p class="message">I welcome any edits and additions to this guide. Click the "Fork me on GitHub" ribbon on the right to get to the source.</p>
 
 ## Table of Contents
