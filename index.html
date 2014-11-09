@@ -15,8 +15,15 @@ title: Home
       {% endif %}
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
+    <div class="post-subtitle">
+      <span class="post-date">{{ post.date | date_to_string }}
+      <ul class="tag-list">
+        {% for tag in post.tags %}
+        <li><a href="/tag/{{ tag }}">{{ tag }}</a></li>
+        {% endfor %}
+      </ul>
+      </span>
+    </div>
     {{ post.content }}
   </div>
   {% endfor %}

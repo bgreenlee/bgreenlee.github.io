@@ -1,7 +1,8 @@
---- 
+---
 title: "TIL: John Hammond"
 date: 2012-05-18 16:36:25 -0700
 layout: post
+tags: people
 ---
 I don't know how I managed to avoid learning about [John H. Hammond](http://en.wikipedia.org/wiki/John_H._Hammond) until now. A recent Radiolab episode, [Crossroads](http://www.radiolab.org/blogs/radiolab-blog/2012/apr/16/crossroads/), introduced him to me.
 

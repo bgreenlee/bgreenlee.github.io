@@ -1,7 +1,9 @@
---- 
+---
 title: "Swift Compiler Bugs"
 date: 2014-11-04 05:27:31 -0800
 layout: post
+summary: Swift compiler bugs will keep you on your toes.
+tags: swift programming
 ---
 
 [Swift](https://developer.apple.com/swift/) is a great language, and far more enjoyable to program in than Objective-C, but it is still in its infancy, and bugs abound. One of the more frustrating is compiler errors that are flat-out wrong. Take a look at this (in Xcode 6.1):

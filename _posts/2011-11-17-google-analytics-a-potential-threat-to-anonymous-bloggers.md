@@ -3,6 +3,7 @@ title: "Google Analytics A Potential Threat to Anonymous Bloggers"
 date: 2011-11-17 07:42:05 -0500
 layout: link
 remote_url: http://waxy.org/2011/11/google_analytics/
+tags: privacy
 ---
 Interesting post from Andy Baio about tracking down an anonymous blogger via Google Analytics, and the trickiness of remaining anonymous in general.
 

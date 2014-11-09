@@ -1,7 +1,8 @@
---- 
+---
 title: "Learning and the Narcissism of Small Differences"
 date: 2011-12-28 14:41:15 -0800
 layout: post
+tags: learning programming
 ---
 I started working with python full-time about a year-and-a-half ago. I was coming from having mostly done ruby and javascript for the last few years, and my prior exposure to python was relatively brief.
 

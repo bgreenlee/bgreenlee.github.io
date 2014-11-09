@@ -1,7 +1,8 @@
---- 
+---
 title: "Thank you, Steve"
 date: 2011-10-05 17:49:37 -0700
 layout: post
+tags: people
 ---
 My first home computer was an Apple IIe, in 1984. I had already started learning to program (on a TRS-80 Model III), but that IIe was where I really got excited about computers and programming. I wrote utilities and games in BASIC, then 6502 assembly language (I would write the assembler instructions down on paper, then translate those by hand to the byte code), hacked games (<a href="http://en.wikipedia.org/wiki/The_Bard's_Tale_(1985_video_game)">Bard's Tale</a> character editor, anyone?), and even taught programming classes to other kids.
 

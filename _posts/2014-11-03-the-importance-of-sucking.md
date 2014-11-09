@@ -1,7 +1,8 @@
---- 
+---
 title: "The Importance of Sucking"
 date: 2014-11-03 10:09:52 -0800
 layout: post
+tags: learning programming
 ---
 
 One of the defining charactaristics of a successful programmer is being OK with the feeling that you have no idea what you're doing. I've been programming for over 30 years and it still happens to me regularly. The key is pushing on through that dark period, trusting that eventually you'll catch a glimmer of light and it will slowly start to make sense.

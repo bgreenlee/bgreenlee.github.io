@@ -1,7 +1,9 @@
---- 
+---
 title: "Fun with Swift Extensions"
 date: 2014-11-04 22:04:55 -0800
 layout: post
+summary: Monkeypatching is so much fun.
+tags: swift programming
 ---
 
 As promised, a post on extensions in Swift.

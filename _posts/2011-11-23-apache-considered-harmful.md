@@ -1,9 +1,10 @@
---- 
+---
 title: "Apache Considered Harmful"
 date: 2011-11-23 11:15:52 -0800
 layout: post
+tags: github open-source
 ---
-A [recent article by Mikeal Rogers ](http://www.futurealoof.com/posts/apache-considered-harmful.html) about the Apache Software Foundation's outmoded idea of open source contributions struck a chord with me. 
+A [recent article by Mikeal Rogers ](http://www.futurealoof.com/posts/apache-considered-harmful.html) about the Apache Software Foundation's outmoded idea of open source contributions struck a chord with me.
 
 Some time ago I submitted a [pull request](https://github.com/cloudera/flume/pull/12) to Flume, making a very minor change to get something to compile again after code reorganization had broken it. About a week later, I got a comment from one of Cloudera's engineers saying that the patch looked good, but that since they were in the process of moving to Apache Incubator, could I follow some [extra steps](https://github.com/cloudera/flume/wiki/HowToContribute). The extra steps (create an account on Cloudera's JIRA issue tracker, create an issue for the bug, generate a patch for my change and attach it to the issue) weren't terribly onerous, but considering I had already moved on (and in fact had decided not to use Flume for my project), and had real work to get done, I put it on the back burner and eventually forgot all about it.
 

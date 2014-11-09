@@ -2,3 +2,46 @@
 .external-links img { display: inline;}
 p.footer { margin-top: 1rem; font-size: 66%;}
 .permalink { font-size: 66%; font-weight: normal;}
+
+.tag-index dt {
+    margin-top: 1rem;
+}
+
+.tag-index dd {
+    margin-left: 0;
+}
+
+.tag-index .post-date {
+    font-weight: normal;
+    font-size: 80%;
+    margin-bottom: 0;
+    display: inline;
+}
+
+.post-subtitle {
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+}
+
+.post-subtitle .post-date {
+    display: inline;
+    margin-bottom: 0;
+}
+
+.tag-list {
+    display: inline;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.tag-list:before {
+    content: "\2022";
+}
+
+.tag-list li {
+    display: inline;
+}
+
+.tag-list a {
+    color: #9a9a9a;
+}

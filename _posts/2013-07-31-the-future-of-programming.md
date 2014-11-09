@@ -2,6 +2,7 @@
 title: "The Future of Programming"
 date: 2013-07-31 15:42:37 -0700
 layout: post
+tags: future programming
 ---
 
 > The most dangerous thought that you can have as a creative person is to think that you know what you're doing. Because once you think you know what you're doing, you stop looking around for other ways of doing things.

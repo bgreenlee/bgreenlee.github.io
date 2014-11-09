@@ -1,7 +1,9 @@
---- 
+---
 title: "Speeding up Jekyll's LSI"
 date: 2014-11-06 08:51:59 -0800
 layout: post
+summary: Ruby is slow as hell.
+tags: jekyll
 ---
 
 Jekyll's Latent Semantic Indexing (LSI) indexes your posts to create the "Related Posts" section you see at the bottom of the individual post pages. However, if you have more than a handful of posts, it is very slow, and it seems to get exponentially slower as the number of posts increase. I ran it on this site, with ~140 posts, and I finally killed it after 3 hours.

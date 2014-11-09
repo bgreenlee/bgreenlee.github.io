@@ -4,7 +4,7 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+relative_permalinks: false
 
 # Setup
 title:            footle
@@ -27,3 +27,14 @@ version:          2.1.0
 
 github:
   repo:           https://github.com/bgreenlee/bgreenlee.github.io
+
+#include: ['_pages']
+
+# Collections
+collections:
+    tags:
+        output: true
+        permalink: /tag/:path/
+    pages:
+        output: true
+        permalink: /:path/

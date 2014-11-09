@@ -2,6 +2,8 @@
 title: "Why is Git Rejecting Me?"
 date: 2013-06-26 21:21:21 -0700
 layout: post
+tags: git
+summary: How to push when git doesn't let you.
 ---
 Every Git user, from novice to expert, gets this error message at some point, maybe even daily:
 
