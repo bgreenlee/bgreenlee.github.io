@@ -299,7 +299,7 @@ rsync -avz --delete --exclude 'sync_vm' --exclude 'sftp-config.json' \
  $REMOTE_DIR $LOCAL_DIR
 ```
 
-**WARNING:** note the `--delete` flag, which will delete anything in your local directory that does not exist in the remote directory.
+**WARNING:** note the `--delete` flag, which will delete anything in your local directory that does not exist in the remote directory, so be careful where you point this.
 
 Put the sync script in the directory you set `LOCAL_DIR` to above, and make it executable: `chmod a+x sync_vm`.
 
