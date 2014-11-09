@@ -5,7 +5,21 @@ title: Sublime Text
 <p class="message">This guide was originally written as a presentation given internally at Etsy. Hopefully I've scrubbed all the Etsy-specific bits.</p>
 <p class="message">I welcome any edits and additions to this guide. Click the "Fork me on GitHub" ribbon on the right to get to the source.</p>
 
-## Introduction
+## Table of Contents
+
+* [Introduction](#intro)
+* [Installation](#installation)
+* [Basic Navigation](#basic-navigation)
+* [Essential Commands](#essential-commands)
+* [Preferences and Customization](#preferences)
+* [Miscellaneous Features](#misc-features)
+* [Using Packages (Plugins)](#plugins)
+* [The Console](#console)
+* [Working with Remote Files](#remote-files)
+* [Writing Plugins](#writing-plugins)
+* [Resources](#resources)
+
+## <a name="intro"></a> Introduction
 
 [Sublime Text](http://www.sublimetext.com/) is a popular cross-platform (Mac, Windows, Linux) text editor. The core editor is the work of a single developer, Jon Skinner, who left his job at Google to pursue his dream of building a better text editor. At the time of its first release in 2008, [TextMate](http://macromates.com/) was an extremely popular editor for OS X, but development on it had stagnated and developers were eager to jump to something with similar power and minimalist aesthetic, but was being more actively developed.
 
@@ -13,9 +27,19 @@ The core framework is written in C++ and uses a custom UI toolkit, but a large p
 
 The current stable version, 2.02, was released in July 2013. Version 3 was introduced in January 2013 and is still in beta, but many people (including myself) have been using it exclusively for some time now. The big change, at least internally, between versions 2 and 3 was the move from python 2.6 to 3.3 for the plugin framework. This meant that a lot of plugins had to be updated before they would work in Sublime Text 3, which slowed adoption considerably. But now almost all of the most popular plugins work on version 3. I recommend using version 3, especially if you're just getting started. Even if you're currently a happy version 2 user, you should give version 3 a shot, as it introduces some great new features such as Goto Definition and Goto Symbol in Project, as well as performance improvements.
 
-### Getting Started
+### Notable Features
 
-#### Installation
+**Speed** - Super-fast startup, and handles large repositories without breaking a sweat.
+
+**Hot Exit** - You can quit at any time and all your windows and files–whether they've been saved or not–will be magically restored. This particularly nice if you like to have "scratch pads" that you don't want to bother saving.
+
+**Multi-Selection** - You can have multiple selections and cursors, which makes block selection and mass editing a breeze. See *Essential Commands* below
+
+**Autocompletion** - Autocompletes based on other strings in your document.
+
+**Extensible** - Comprehensive Python API makes adding functionality through plugins (packages) easy. See *Using Packages* and *Writing Plugins* below.
+
+## <a name="installation"></a> Installation
 
 1. Download and install Sublime Text 3 for your platform from <http://www.sublimetext.com/3>. If you're already a registered user and want to live on the [not all that sharp] edge, you can [grab the dev build](http://www.sublimetext.com/3dev).
 
@@ -41,19 +65,7 @@ To load these changes in your current terminal session, run:
 
 Now you should be able to run `subl <filename>` or `subl <directory>` to open a file or entire directory in Sublime Text.
 
-### Notable Features
-
-**Speed** - Super-fast startup, and handles large repositories without breaking a sweat.
-
-**Hot Exit** - You can quit at any time and all your windows and files–whether they've been saved or not–will be magically restored. This particularly nice if you like to have "scratch pads" that you don't want to bother saving.
-
-**Multi-Selection** - You can have multiple selections and cursors, which makes block selection and mass editing a breeze. See *Essential Commands* below
-
-**Autocompletion** - Autocompletes based on other strings in your document.
-
-**Extensible** - Comprehensive Python API makes adding functionality through plugins (packages) easy. See *Using Packages* and *Writing Plugins* below.
-
-### Basic Navigation
+## <a name="basic-navigation"></a> Basic Navigation
 
 The standard Mac navigation works in Sublime:
 
@@ -69,7 +81,7 @@ And a few Sublime-specific:
 * Go to next/previous tab (⌥⌘→, ⌥⌘←)
 * Go to tab #n (⌘1..⌘9)
 
-### Essential Commands
+## <a name="essential-commands"></a> Essential Commands
 
 **Command Palette... (⇧⌘P)** - Allows you to execute commands by name. Includes both default commands and those added by plugins.
 
@@ -120,7 +132,7 @@ On the left side of the find pane are buttons that allow you to enable regular e
 
 The last two buttons, Show Context and Use Buffer, you'll probably want to leave enabled.
 
-### Preferences and Customization
+## <a name="preferences"></a> Preferences and Customization
 
 Sublime is very customizable, but not through the usual point-and-click dialog that you might be used to. Sublime preferences are stored as JSON files. Look at *Preferences > Settings - Default* to see some of the options that are available to you. If you find something you'd like to change, don't do it in that file, but rather in *Preferences > Settings - User*. (The default settings are stored within the application itself, so any changes there will be lost when you upgrade; user settings are stored in your home directory.)
 
@@ -135,7 +147,7 @@ Some of my favorite preference changes:
 
 Plugin-specific preferences can be found under *Preferences > Package Settings*.
 
-#### Customizing Key Bindings
+### Customizing Key Bindings
 
 Key bindings can be configured in the same way that preferences are. Default key bindings can be found in *Preferences > Key Bindings - Default*. Put any changes in *Preferences > Key Bindings - User*. My favorite changes:
 
@@ -144,13 +156,13 @@ Key bindings can be configured in the same way that preferences are. Default key
  { "keys": ["ctrl+super+s"], "command": "delete_trailing_spaces" }
 ```
 
-#### Fonts and Color Schemes
+### Fonts and Color Schemes
 
 Although both font and color schemes settings can be found in the Preferences JSON file, you can change those via the menu as well: *Preferences > Font* and Color Scheme.
 
 If none of the included color schemes float your boat, there is no shortage of others to be found. [Color Sublime](http://colorsublime.com/) is a good place to look.
 
-#### Syntax-Specific Settings
+### Syntax-Specific Settings
 
 Sublime has the ability to apply different settings based on the type of file you have open. Just open up a file of the type you want, and go to *Preferences > Settings - More > Syntax Specific - User*. This will open up a .sublime-settings file for that file type. Any preferences you put in here will now apply to any files of that type.
 
@@ -170,7 +182,7 @@ One nice use of this is to have different color schemes for different file types
 
 You can also change the font, tab settings...anything that you find in the normal preferences file.
 
-#### Vintage
+### Vintage
 
 Sublime Text 3 comes with a vi mode editing package called Vintage that is disabled by default. You can enable it by going to *Preferences > Settings - Default* and editing the `ignored_packages` setting to remove "Vintage".
 
@@ -178,23 +190,23 @@ There's also a plugin called [Vintageous](http://guillermooo.bitbucket.org/Vinta
 
 [More information in Vintage can be found in the docs](http://www.sublimetext.com/docs/3/vintage.html).
 
-### Miscellaneous Features
+## <a name="misc-features"></a> Miscellaneous Features
 
-#### Distraction Free Mode
+### Distraction Free Mode
 
 Full screen and no UI chrome. Ahhhh. ⌃⇧⌘F
 
-#### Projects and Workspaces
+### Projects and Workspaces
 
 A project allows you to group sets of files or directories together. Just add the files/folders you need and then go to *Project > Save Project As...*. You can switch between projects using ⌃⌘P.
 
 A workspace is a particular view—i.e. set of open files, or pane layout—of a project. One use case for having multiple workspaces in a project would be if you were working on different features. You switch between workspaces the same way you switch between projects.
 
-#### Layouts and Groups
+### Layouts and Groups
 
 You can split your window into multiple panes, either horizonal or vertical, via *View > Layout*. You can also do this via *View > Group*. A group is just a set of files in a particular pane. You can move files over to different panes either by dragging their tabs, or via *View > Move File to Group*
 
-#### Snippets
+### Snippets
 
 *Tools > New Snippet*
 
@@ -202,12 +214,12 @@ Uncomment the `tabTrigger` line and save into `Packages/User` as `hello.sublime-
 
 Open any document and type `hello<TAB>`
 
-#### Build Systems
+### Build Systems
 
 Build systems (under the Tools menu) allow you to run external programs and view the results within Sublime. See
 <http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/build_systems.html> for documentation.
 
-#### Bookmarks
+### Bookmarks
 
 Bookmarks allow you to bookmark individual lines in a file and then jump between them. The default key bindings are around the F2 key, which is a pain on Macs, so I've remapped them:
 
@@ -221,7 +233,7 @@ Bookmarks allow you to bookmark individual lines in a file and then jump between
 
 That said, I never actually use bookmarks. They might be more useful if they worked across views, but they don't.
 
-### Using Packages (Plugins)
+## <a name="plugins"></a> Using Packages (Plugins)
 
 One of Sublime's strongest suits is its plugin system. Thousands of plugins have been written, and finding and installing them is painless thanks to another plugin, [Package Control](https://sublime.wbond.net/). If you haven't already installed it, [do so now](https://sublime.wbond.net/installation).
 
@@ -249,7 +261,7 @@ Which packages you install is obviously going to depend on your needs. Some of m
 
 **[SublimeCodeIntel](https://github.com/SublimeCodeIntel/SublimeCodeIntel)** - Adds intelligent code completion, among other things.
 
-### The Console
+## <a name="console"></a> The Console
 
 Hit Ctrl-\` to bring up the console. This not only acts as a log file for the editor, but is a Python REPL with access to the sublime environment.
 
@@ -261,21 +273,21 @@ sublime.message_dialog("Hello, world!")
 
 The console is the first place you should look if something funky is going on with Sublime. Any errors will show up there.
 
-### Working with Remote Files
+### <a name="remote-files"></a> Working with Remote Files
 
 At Etsy, most of our development work is done on virtual machines, so Sublime needs to be configured to work with remote files. There are a few ways to do this. Which one you choose will depends on your needs and how fast the connection to your remote server is.
 
-#### NFS (or sshfs/Fuse) Mount
+### NFS (or sshfs/Fuse) Mount
 
 If you already have a NFS or other type of remote filesystem mount set up, this is probably the easiest route, although performance can be terrible, especially with large repositories or over a slower connection.
 
-#### rmate/rsub
+### rmate/rsub
 
 rsub is a Sublime port of TextMate's rmate command, which allows you to initiate opening a file on a remote machine, and have it open up in Sublime. It accomplishes this through a bit of ssh tunnelling wizardry. Setup is not hard, but contains enough steps that I'll just [link to it instead of reproducing it here](http://log.liminastudio.com/writing/tutorials/sublime-tunnel-of-love-how-to-edit-remote-files-with-sublime-text-via-an-ssh-tunnel).
 
 One major limitation with this method is that it only works for editing individual files, not opening up whole directories/repositories.
 
-#### SFTP + rsync
+### SFTP + rsync
 
 This is my preferred method of working with a large remote repository. The basic idea is you use the rsync command to create a copy of the remote repository on your local machine, and then use the [Sublime SFTP plugin](http://wbond.net/sublime_packages/sftp) to make sure that any changes you make locally get automatically synced over to the remote machine.
 
@@ -283,7 +295,7 @@ The tricky part of using this method is you have to make sure that any time chan
 
 One way to automate syncing a bit–at least when working with git repos–is to install a post-checkout hook that uses an ssh tunnel to automatically rsync the changes back to your local machine.
 
-##### Setup
+#### Setup
 
 1. Install the [Sublime SFTP plugin](http://wbond.net/sublime_packages/sftp).
 
@@ -341,7 +353,7 @@ rsync -az -e 'ssh -p 1122' --delete <all the excludes from your above sync scrip
 
 Note that you still need to be aware of events that update your repo that don’t trigger the post-checkout hook (e.g. git cherry-pick or git stash pop). In this case, just run the sync script on your laptop and Bob’s your uncle.
 
-### Writing Plugins
+## <a name="writing-plugins"></a> Writing Plugins
 
 Four types of plugins:
 
@@ -365,7 +377,7 @@ Four types of plugins:
     - see <http://www.sublimetext.com/docs/3/api_reference.html#sublime_plugin.EventListener> for a list of events
     - Don't get too fancy here; you'll probably bog down the whole editor
 
-#### Anatomy of a plugin
+### Anatomy of a plugin
 
 The standard Sublime Text plugins are in `/Applications/Sublime Text.app/Contents/MacOS/Packages/Default.sublime-package`. Let's peek in there.
 
@@ -431,7 +443,7 @@ This command has no Command Palette entry, but if it did, you'd find it in `Defa
 
 (Exercise: Add the Duplicate Line command to the Command Palette.)
 
-#### Let's Write a Plugin: Say
+### Let's Write a Plugin: Say
 
 Note: This will only work on OS X.
 
@@ -473,7 +485,7 @@ sublime.set_timeout_async(lambda: subprocess.call(["/usr/bin/say", self.view.sub
 
 Now if you run Say on a large block of text, you'll find the editor is still responsive while the text is being spoken.
 
-#### Saving and Loading Preferences
+### Saving and Loading Preferences
 
 ```python
 settings = sublime.load_settings("MyPackage.sublime-settings")
@@ -483,7 +495,7 @@ settings.erase("some_setting")
 sublime.save_settings("MyPackage.sublime-settings")
 ```
 
-### Resources
+## <a name="resources"></a> Resources
 
 **[Sublime Text 3 Documentation](https://www.sublimetext.com/docs/3/)** - The official documentation. Rather sparse.
 
