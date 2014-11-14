@@ -1,3 +1,12 @@
+/* overrides */
+html {
+  font-family: "Optima", "Candara", "PT Sans", Helvetica, Arial, sans-serif;
+}
+.sidebar-about h1 {
+    font-family: "Nixie One", serif;
+    font-size: 5rem;
+}
+
 .external-links { margin-top: 1rem;}
 .external-links img { display: inline;}
 p.footer { margin-top: 1rem; font-size: 66%;}
