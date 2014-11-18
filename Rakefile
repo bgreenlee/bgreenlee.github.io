@@ -1,3 +1,8 @@
+require 'logger'
+require 'pathname'
+
+LOGGER = Logger.new(STDOUT)
+
 desc 'Generate tags page'
 task :tags do
   puts "Generating tags..."
@@ -35,4 +40,17 @@ title: Posts tagged "#{tag}"
     end
   end
   puts 'Done.'
+end
+
+desc 'Minify assets'
+task :minify do
+  require 'sprockets'
+
+  sprockets = Sprockets::Environment.new do |env|
+    env.logger = LOGGER
+    env.css_compressor = :scss
+    env.append_path("_assets/css")
+  end
+
+  sprockets["application.scss"].write_to("public/css/application.css")
 end
