@@ -3,6 +3,9 @@ require 'pathname'
 
 LOGGER = Logger.new(STDOUT)
 
+desc 'Build the site'
+task :build => [:tags, :minify]
+
 desc 'Generate tags page'
 task :tags do
   puts "Generating tags..."
