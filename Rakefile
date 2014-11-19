@@ -3,6 +3,13 @@ require 'pathname'
 
 LOGGER = Logger.new(STDOUT)
 
+desc 'Publish the site'
+task :publish, [:commit_msg] => [:build] do |t, args|
+  args.with_defaults(:commit_msg => "Update site")
+  commit_msg = args[:commit_msg].gsub(/'/, "\\\\'")
+  system("git add . && git commit -a -m '#{commit_msg}' && git push")
+end
+
 desc 'Build the site'
 task :build => [:tags, :minify]
 
