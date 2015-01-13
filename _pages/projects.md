@@ -7,6 +7,10 @@ title: Projects
 
 A Mac OS X app that sits quietly in your menu bar and alerts you when it sees something hogging CPU.
 
+#### [JobTracker](http://footle.org/JobTracker/) ([code](https://github.com/bgreenlee/JobTracker))
+
+A Mac menu bar app interface to the Hadoop JobTracker. It gives you easy access to jobs in JobTracker, and provides Growl/Notification Center notices of starting, completed, and failed jobs.
+
 #### [sublime-github](https://github.com/bgreenlee/sublime-github)
 
 Github Gist plugin for [Sublime Text 2/3](http://www.sublimetext.com/)
