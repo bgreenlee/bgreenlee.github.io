@@ -1,7 +1,9 @@
 ---
 title: "Write a Mac Menu Bar App in Swift"
 date: 2015-03-26 09:19:42 -0400
-layout: post
+layout: link
+remote_url: "/WeatherBar/"
+tags: osx swift tutorial
 ---
 
 This past week I taught an [Etsy School](https://blog.etsy.com/news/2013/about-us-etsy-school/) class on how to [write an OS X menu bar (aka status bar) app in Swift](http://footle.org/WeatherBar/), and the walk-through is now public. I hope you find it useful.
