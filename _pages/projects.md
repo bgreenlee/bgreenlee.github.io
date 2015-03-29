@@ -3,6 +3,10 @@ layout: page
 title: Projects
 ---
 
+#### [WeatherBar](http://footle.org/WeatherBar/) ([code](https://github.com/bgreenlee/WeatherBar))
+
+A walk-through creating an OS X menu bar app in Swift.
+
 #### [Squeeler](http://footle.org/Squeeler/) ([code](https://github.com/bgreenlee/Squeeler))
 
 A Mac OS X app that sits quietly in your menu bar and alerts you when it sees something hogging CPU.
