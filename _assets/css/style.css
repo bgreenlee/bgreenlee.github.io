@@ -54,3 +54,13 @@ p.footer { margin-top: 1rem; font-size: 66%;}
 .tag-list a {
     color: #9a9a9a;
 }
+
+sup {
+    font-size: 16px;
+}
+
+.footnotes {
+    border-top: 1px solid;
+    padding-top: 1em;
+    font-size: 16px;
+}
