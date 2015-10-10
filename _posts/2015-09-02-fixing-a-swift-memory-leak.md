@@ -122,4 +122,4 @@ The eagled-eyed among you might have noticed that about a month elapsed between 
 
 Try out `leaks` on some of the other apps you have running. You'll find that leak-free apps are oddly rare, and some are downright eggregious (my beloved Sublime Text text editor, in which I'm writing this post, shows "577841 leaks for 44554352 total leaked bytes." Oof).
 
-For more information on, see Apple's documentation on [Finding Memory Leaks](https://developer.apple.com/library/mac/documentation/Performance/Conceptual/ManagingMemory/Articles/FindingLeaks.html).
+For more information, see Apple's documentation on [Finding Memory Leaks](https://developer.apple.com/library/mac/documentation/Performance/Conceptual/ManagingMemory/Articles/FindingLeaks.html).
