@@ -9,6 +9,12 @@ html {
   }
 }
 
+@media (min-width: 48em) {
+  .content {
+    max-width: 42rem;
+  }
+}
+
 .sidebar-about h1 {
     font-family: "Nixie One", serif;
     font-size: 5rem;
