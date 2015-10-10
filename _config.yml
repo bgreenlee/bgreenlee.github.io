@@ -2,10 +2,10 @@
 markdown: kramdown
 kramdown:
     input: GFM
-highlighter:      pygments
+highlighter: pygments
 
 # Permalinks
-permalink:        pretty
+permalink: pretty
 relative_permalinks: false
 
 # Setup
