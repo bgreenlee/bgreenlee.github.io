@@ -2,6 +2,13 @@
 html {
   font-family: "Optima", "Candara", "PT Sans", Helvetica, Arial, sans-serif;
 }
+
+@media (min-width: 58em) {
+  html {
+    font-size: 18px;
+  }
+}
+
 .sidebar-about h1 {
     font-family: "Nixie One", serif;
     font-size: 5rem;
@@ -78,5 +85,5 @@ img.embed-left {
 }
 
 pre {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
 }
