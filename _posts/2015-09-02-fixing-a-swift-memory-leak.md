@@ -52,8 +52,7 @@ But this didn't help. What _did_ end up working was using an ephemeral session:
 
 {% highlight swift %}
 let session = NSURLSession(configuration: NSURLSessionConfiguration.ephemeralSessionConfiguration())
-let url = NSURL(string: BASE_URL + "/services")
-let task = session.dataTaskWithURL(url!) { data, response, error in
+let task = session.dataTaskWithURL(url) { data, response, error in
     // ...
 {% endhighlight %}
 
