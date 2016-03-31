@@ -1,4 +1,4 @@
---- 
+---
 title: "Code Signing Will Kill Me Yet"
 date: 2016-03-31 15:25:19 -0700
 layout: post
@@ -7,11 +7,11 @@ This is one of those _I-spent-long-enough-stumped-on-this-issue-I-should-write-i
 
 I wrote a little app at work (which I'll talk about in a future post), and I was having a strange code signing issue. The app would sign just fine:
 
-{% highlight bash %}
+```bash
 $ spctl --assess -v Orwell.app
 Orwell.app: accepted
 source=Developer ID
-{% endhighlight %}
+```
 
 But then if I zipped it up and sent it to someone, when they unzipped it, OS X would tell them that it was damaged and should be thrown away:
 
@@ -19,10 +19,10 @@ But then if I zipped it up and sent it to someone, when they unzipped it, OS X w
 
  Sure enough, if I zip and unzip the app, and verify the code signing again, I get:
 
-{% highlight bash %}
+```bash
 $ spctl --assess -v Orwell.app
 Orwell.app: a sealed resource is missing or invalid
-{% endhighlight %}
+```
 
 After much hair-pulling, I found [Technical Note TN2318: Troubleshooting Failed Signature Verification](https://developer.apple.com/library/ios/technotes/tn2318/_index.html), which says:
 
@@ -30,14 +30,14 @@ After much hair-pulling, I found [Technical Note TN2318: Troubleshooting Failed 
 
 Sure enough:
 
-{% highlight bash %}
+```bash
 $ find Orwell.app -name "._*"
 Orwell.app/Contents/Resources/app/node_modules/applescript/._package.json
 Orwell.app/Contents/Resources/app/node_modules/applescript/lib/._applescript.js
 Orwell.app/Contents/Resources/app/node_modules/applescript/samples/._execString.js
 $ dot_clean Orwell.app
 $ find Orwell.app -name "._*"
-{% endhighlight %}
+```
 
 Running [dot_clean](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/dot_clean.1.html) before I signed the app fixed the issue.
 
