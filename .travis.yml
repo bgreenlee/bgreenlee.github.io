@@ -1,4 +1,7 @@
 language: ruby
 rvm:
   - 2.1.7
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y gsl-bin
 script: "bundle exec jekyll build"
