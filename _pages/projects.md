@@ -2,6 +2,9 @@
 layout: page
 title: Projects
 ---
+#### [QR Life](https://itunes.apple.com/us/app/qr-life/id1061418370?mt=8)
+
+iOS app that turns QR codes into [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) simulations.
 
 #### [WeatherBar](http://footle.org/WeatherBar/) ([code](https://github.com/bgreenlee/WeatherBar))
 
