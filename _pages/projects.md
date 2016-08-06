@@ -10,6 +10,10 @@ iOS app that turns QR codes into [Game of Life](https://en.wikipedia.org/wiki/Co
 
 A walk-through creating an OS X menu bar app in Swift.
 
+#### [remotes.club](https://www.remotes.club/)
+
+A home for remote workers.
+
 #### [Squeeler](http://footle.org/Squeeler/) ([code](https://github.com/bgreenlee/Squeeler))
 
 A Mac OS X app that sits quietly in your menu bar and alerts you when it sees something hogging CPU.
