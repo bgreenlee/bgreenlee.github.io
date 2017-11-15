@@ -3,7 +3,8 @@ markdown: kramdown
 kramdown:
     input: GFM
 gems: [jekyll-paginate]
-exclude: [vendor]
+include: [.well-known]
+exclude: [vendor,Rakefile,Gemfile,Gemfile.lock]
 
 # Permalinks
 permalink: pretty
