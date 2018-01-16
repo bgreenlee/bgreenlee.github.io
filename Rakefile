@@ -44,7 +44,6 @@ title: Posts tagged "#{tag}"
         html << "<dd>#{post_data['summary']}</dd>"
       end
     end
-    html << '</dd>'
     File.open("_tags/#{tag}.md", 'w+') do |file|
       file.puts html
     end
