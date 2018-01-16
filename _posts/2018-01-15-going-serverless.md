@@ -2,6 +2,7 @@
 title: Going "Serverless"
 date: 2018-01-15 16:13:13 -0800
 layout: post
+tags: ios projects web-development
 ---
 When my friend Nelson and I set out to build our location tracking app & accompanying website, [Wanderings](https://wanderin.gs), we started down the familiar path of choosing our stack. Flask seemed like a reasonable choice. Postgres for the database. SqlAlchemy for the ORM? Sure, I guess. We figured we’d try hosting on GCP, mostly to learn more about the platform. Do we bother with containers? Meh, leave those for the youngsters. And so on.
 

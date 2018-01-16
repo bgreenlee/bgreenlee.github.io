@@ -2,6 +2,7 @@
 title: "Code Signing Will Kill Me Yet"
 date: 2016-03-31 15:25:19 -0700
 layout: post
+tags: osx
 ---
 This is one of those _I-spent-long-enough-stumped-on-this-issue-I-should-write-it-up-for-future-generations_ posts.
 
