@@ -2,6 +2,7 @@
 title: "Fixing A Swift Memory Leak"
 date: 2015-10-10 10:57:00 -0700
 layout: post
+tags: swift debugging
 ---
 
 I wrote a Mac menu bar app for internal use at Etsy that show the status of a number of internal systems and pops up a notification if any of them change status—for example, if a problem is detected and someone puts a hold on our [deployment queue](https://github.com/etsy/PushBot). ![EtsyInternalStatus.app](/public/images/fixing-leak/etsy-internal-status-menu.png){: .embed-right}
