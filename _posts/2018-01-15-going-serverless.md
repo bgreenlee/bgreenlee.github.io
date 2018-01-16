@@ -29,5 +29,3 @@ Fortunately, for a few years now browsers have supported [IndexedDB](https://dev
 Using a browser-embedded database has the downside of having to re-download all your data when you go to a new browser or if you've cleared your cache, but we think that's an acceptable trade-off to have complete control of your data.
 
 So check it out and let us know what you think. Send us your bugs/feature requests/love at <support@wanderin.gs>.
-
-Brad & Nelson
