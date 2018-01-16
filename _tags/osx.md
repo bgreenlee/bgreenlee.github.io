@@ -4,6 +4,10 @@ title: Posts tagged "osx"
 ---
 <dl>
   <dt>
+    <a href="/2016/03/31/code-signing-will-kill-me-yet/">Code Signing Will Kill Me Yet</a>
+    <span class="post-date">&bull; 31 Mar 2016</span>
+  </dt>
+  <dt>
     <a href="/2015/04/19/two-tools-for-packaging-mac-apps/">Two Tools for Packaging Mac Apps</a>
     <span class="post-date">&bull; 19 Apr 2015</span>
   </dt>

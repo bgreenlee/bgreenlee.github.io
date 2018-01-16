@@ -22,7 +22,7 @@ task :tags do
 
   options = Jekyll.configuration({})
   site = Jekyll::Site.new(options)
-  # site.read_posts('')
+  site.read
   site.tags.sort.each do |tag, posts|
     html = ''
     html << <<-HTML
