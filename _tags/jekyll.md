@@ -11,4 +11,3 @@ title: Posts tagged "jekyll"
     <a href="/2013/09/29/prose-io/">Prose.io</a>
     <span class="post-date">&bull; 29 Sep 2013</span>
   </dt>
-</dd>

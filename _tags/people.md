@@ -19,4 +19,3 @@ title: Posts tagged "people"
     <a href="/2011/10/05/thank-you-steve/">Thank you, Steve</a>
     <span class="post-date">&bull; 05 Oct 2011</span>
   </dt>
-</dd>

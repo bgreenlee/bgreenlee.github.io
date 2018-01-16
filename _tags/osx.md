@@ -15,4 +15,3 @@ title: Posts tagged "osx"
     <a href="/2015/03/26/write-a-mac-menu-bar-app-in-swift/">Write a Mac Menu Bar App in Swift</a>
     <span class="post-date">&bull; 26 Mar 2015</span>
   </dt>
-</dd>
