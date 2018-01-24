@@ -227,10 +227,11 @@ PLATFORMS
 DEPENDENCIES
   classifier-reborn
   github-pages
+  jekyll-gist
   jekyll-paginate
   rake
   rb-gsl (~> 1.16)
   sprockets (~> 3.0)
 
 BUNDLED WITH
-   1.15.3
+   1.16.0

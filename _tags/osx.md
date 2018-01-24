@@ -4,6 +4,10 @@ title: Posts tagged "osx"
 ---
 <dl>
   <dt>
+    <a href="/2018/01/23/rescuing-windows-with-hammerspoon/">Rescuing Windows with Hammerspoon</a>
+    <span class="post-date">&bull; 23 Jan 2018</span>
+  </dt>
+  <dt>
     <a href="/2016/03/31/code-signing-will-kill-me-yet/">Code Signing Will Kill Me Yet</a>
     <span class="post-date">&bull; 31 Mar 2016</span>
   </dt>

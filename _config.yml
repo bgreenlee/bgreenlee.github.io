@@ -2,7 +2,7 @@
 markdown: kramdown
 kramdown:
     input: GFM
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate, jekyll-gist]
 include: [.well-known]
 exclude: [vendor,Rakefile,Gemfile,Gemfile.lock]
 
