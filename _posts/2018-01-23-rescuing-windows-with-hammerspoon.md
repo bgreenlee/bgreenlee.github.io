@@ -5,7 +5,7 @@ layout: post
 tags: osx automation lua
 ---
 
-I recently got a new monitor and it came with a problem. For some reason when I attached or detached my laptop, I would end up with many of my windows off the edge of the screen, and I'd have to drag them back over one by one. It was annoying enough that I decided I'd write an app to "rescue" them.
+I recently got a new monitor and it came with a problem. For some reason when I attached or detached my laptop, many of my windows would end up off the edge of the screen, and I'd have to drag them back over one by one. It was annoying enough that I decided I'd write an app to "rescue" them.
 
 I figured it wouldn't be too hard. Get a list of active windows, see which are off-screen, and move them over. But it was hard. My code only half-worked. And for some reason I couldn't get Chrome windows to move.
 
