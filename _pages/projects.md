@@ -2,6 +2,10 @@
 layout: page
 title: Projects
 ---
+#### [ReadBot]({% post_url 2018-03-01-readbot %}) ([code](https://github.com/bgreenlee/readbot))
+
+Slack bot that makes it easy to add books or articles to Goodreads or Pocket.
+
 #### [Wanderings](https://wanderin.gs/about)
 
 [iOS app](https://itunes.apple.com/us/app/wanderings-travel-tracking/id1292503352?ls=1&mt=8) and [accompanying website](https://wanderin.gs) that tracks your location in the background and gives you a heatmap of your travels.
