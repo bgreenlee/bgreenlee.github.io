@@ -98,3 +98,18 @@ img.center {
     margin: 0 auto;
     display: block;
 }
+
+.archive ul.posts {
+    list-style: none
+}
+
+.archive ul.posts .post-date {
+    display: inline-block;
+    text-align: right;
+    width: 4em;
+    margin: 0;
+}
+
+.archive ul.posts .post-link {
+    margin-left: 0.5em;
+}

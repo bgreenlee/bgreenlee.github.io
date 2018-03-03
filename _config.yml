@@ -2,7 +2,7 @@
 markdown: kramdown
 kramdown:
     input: GFM
-plugins: [jekyll-paginate, jekyll-gist]
+plugins: [jekyll-paginate, jekyll-gist, jekyll-archives]
 include: [.well-known]
 exclude: [vendor,Rakefile,Gemfile,Gemfile.lock]
 
@@ -25,6 +25,14 @@ author:
 paginate:         5
 
 lsi:              true
+
+jekyll-archives:
+  enabled: all
+  layout: 'archive'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
 
 # Custom vars
 version:          2.1.0

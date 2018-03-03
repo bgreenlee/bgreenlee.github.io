@@ -8,7 +8,7 @@ working at [Etsy](https://etsy.com).
 
 ![The Girls on Vashon Island](/public/images/girls_vashon.jpg)
 
-Feel free to [email me](mailto:brad@footle.org). Some other places you can   stalk me: [Twitter](https://twitter.com/bgreenlee), [Github](https://github.com/bgreenlee), [500px](https://500px.com/bgreenlee), [Flickr](http://flickr.com/photos/bgreenlee), [Stellar](http://stellar.io/bgreenlee), [Pinboard](http://pinboard.in/u:bgreenlee), [Facebook](http://www.facebook.com/bgreenlee), [LinkedIn](http://www.linkedin.com/in/bgreenlee).
+Feel free to [email me](mailto:brad@footle.org). Some other places you can   stalk me: [Twitter](https://twitter.com/bgreenlee), [Github](https://github.com/bgreenlee), [500px](https://500px.com/bgreenlee), [Flickr](http://flickr.com/photos/bgreenlee), [Pinboard](http://pinboard.in/u:bgreenlee), [Facebook](http://www.facebook.com/bgreenlee), [LinkedIn](http://www.linkedin.com/in/bgreenlee).
 
 ## About the Site
 

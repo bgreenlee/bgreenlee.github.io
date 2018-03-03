@@ -1,0 +1,20 @@
+<div class="post">
+  <h4><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+  <div class="post-subtitle">
+    <span class="post-date">{{ post.date | date_to_string }}
+    {% if post.tags.size > 0 %}
+    <ul class="tag-list">
+      {% for tag in post.tags %}
+      <li><a href="/tag/{{ tag }}">{{ tag }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    </span>
+  </div>
+  {% if post.excerpt %}
+  <p>
+    {{ post.excerpt | strip_html  }}
+    <a href="{{ post.url | prepend: site.baseurl }}">[read]</a>
+  </p>
+  {% endif %}
+</div>
