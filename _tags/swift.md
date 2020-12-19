@@ -4,6 +4,10 @@ title: Posts tagged "swift"
 ---
 <dl>
   <dt>
+    <a href="/2020/12/28/advent-of-code-2020-swift/">Advent of Code 2020: Swift</a>
+    <span class="post-date">&bull; 28 Dec 2020</span>
+  </dt>
+  <dt>
     <a href="/2015/10/10/fixing-a-swift-memory-leak/">Fixing A Swift Memory Leak</a>
     <span class="post-date">&bull; 10 Oct 2015</span>
   </dt>

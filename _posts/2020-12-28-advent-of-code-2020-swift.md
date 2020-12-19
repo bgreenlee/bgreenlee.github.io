@@ -2,6 +2,7 @@
 title: "Advent of Code 2020: Swift"
 date: 2020-12-28 08:00:55 -0800
 layout: post
+tags: swift aoc
 ---
 
 [Advent of Code](https://adventofcode.com) was a fun diversion this year. It seemed a bit easier than some previous years. Perhaps it helped that I picked a language that I had some experience with, [Swift](https://developer.apple.com/swift/). Here are some quick thoughts on Swift as an AoC language, some general AoC tips, and notes on some of the more interesting puzzles.
