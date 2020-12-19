@@ -117,13 +117,15 @@ Woo, boy! This was a good one. I'd never written a parser before, so this was a 
 
 This was a favorite. Part 1 was easy once I figured out a way to generate a hash code that uniquely identified a side, irrespective of its orientation:
 
-	static func sideToInt(_ side:String) -> Int {
-	    let binary = side.replacingOccurrences(of: ".", with: "0")
-	                     .replacingOccurrences(of: "#", with: "1")
-	    let num = Int(binary, radix: 2)!
-	    let numReversed = Int(String(binary.reversed()), radix: 2)!
-	    return num * numReversed * (num ^ numReversed)
-	}
+```swift
+static func sideToInt(_ side:String) -> Int {
+    let binary = side.replacingOccurrences(of: ".", with: "0")
+                        .replacingOccurrences(of: "#", with: "1")
+    let num = Int(binary, radix: 2)!
+    let numReversed = Int(String(binary.reversed()), radix: 2)!
+    return num * numReversed * (num ^ numReversed)
+}
+```
 
 Once you have that, your corners are the tiles that have two "singleton" sides (i.e. unique to that tile). No assembling necessary...for part 1. Part 2 did require assembling, and that was a bit tedious. It was a cool problem, though.
 
