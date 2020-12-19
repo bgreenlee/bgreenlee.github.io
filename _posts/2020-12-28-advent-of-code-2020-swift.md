@@ -120,7 +120,7 @@ This was a favorite. Part 1 was easy once I figured out a way to generate a hash
 ```swift
 static func sideToInt(_ side:String) -> Int {
     let binary = side.replacingOccurrences(of: ".", with: "0")
-                        .replacingOccurrences(of: "#", with: "1")
+                     .replacingOccurrences(of: "#", with: "1")
     let num = Int(binary, radix: 2)!
     let numReversed = Int(String(binary.reversed()), radix: 2)!
     return num * numReversed * (num ^ numReversed)
