@@ -2,6 +2,11 @@
 layout: page
 title: Projects
 ---
+
+#### [Sunrise in Your Menu Bar](https://apps.apple.com/us/app/sunrise-in-your-menu-bar/id1548227736?mt=12)
+
+Mac menu bar app that displays sunrise & sunset info for your (or any) location.
+
 #### [ReadBot]({% post_url 2018-03-01-readbot %}) ([code](https://github.com/bgreenlee/readbot))
 
 Slack bot that makes it easy to add books or articles to Goodreads or Pocket.
