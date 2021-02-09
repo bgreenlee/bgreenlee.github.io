@@ -3,6 +3,10 @@ layout: page
 title: Projects
 ---
 
+#### [Spelling Beat](https://spellingbeat.com) ([code](https://github.com/bgreenlee/spelling-beat))
+
+A little serverless app to find solutions for the NYT's [Spelling Bee](https://www.nytimes.com/puzzles/spelling-bee) game.
+
 #### [Sunrise in Your Menu Bar](https://apps.apple.com/us/app/sunrise-in-your-menu-bar/id1548227736?mt=12)
 
 Mac menu bar app that displays sunrise & sunset info for your (or any) location.
