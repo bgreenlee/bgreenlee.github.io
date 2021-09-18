@@ -4,7 +4,7 @@ date: 2021-09-18 15:14:51 -0700
 layout: post
 tags: ml data-eng
 ---
-[The Framework for ML Governance](https://info.algorithmia.com/hubfs/The%20Framework%20for%20ML%20Governance.pdf?hsLang=en-us) by Kyle Gallatin
+[The Framework for ML Governance](https://info.algorithmia.com/hubfs/The%20Framework%20for%20ML%20Governance.pdf?hsLang=en-us) by [Kyle Gallatin](https://twitter.com/kylegallatin)
 
 ML is becoming commoditized, but there hasn't been much in the way of scalable frameworks to support the delivery and operation of models in production (of course, Algorithmia has one, hence their sponsoring of this report).
 
