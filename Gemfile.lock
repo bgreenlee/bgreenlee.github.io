@@ -269,6 +269,7 @@ PLATFORMS
 
 DEPENDENCIES
   classifier-reborn
+  ffi
   github-pages
   jekyll-archives
   jekyll-gist
