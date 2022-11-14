@@ -3,6 +3,10 @@ html {
   font-family: "Optima", "Candara", "PT Sans", Helvetica, Arial, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 @media (min-width: 58em) {
   html {
     font-size: 18px;
