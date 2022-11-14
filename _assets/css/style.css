@@ -3,10 +3,6 @@ html {
   font-family: "Optima", "Candara", "PT Sans", Helvetica, Arial, sans-serif;
 }
 
-a {
-    text-decoration: none;
-}
-
 @media (min-width: 58em) {
   html {
     font-size: 18px;
@@ -28,6 +24,7 @@ a {
 .external-links img { display: inline;}
 p.footer { margin-top: 1rem; font-size: 66%;}
 .permalink { font-size: 66%; font-weight: normal;}
+.sidebar-nav .external-links a { text-decoration: none; }
 
 .tag-index dt {
     margin-top: 1rem;
