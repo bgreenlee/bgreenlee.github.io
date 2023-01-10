@@ -1,4 +1,4 @@
 <?xml version="1.0"?>
 <XRD xmlns="http://docs.oasis-open.org/ns/xri/xrd-1.0">
-  <Link rel="lrdd" type="application/xrd+xml" template="https://social.footle.org/.well-known/webfinger?resource=acct:brad@footle.org"/>
+  <Link rel="lrdd" type="application/xrd+xml" template="https://social.footle.org/.well-known/host-meta?resource=acct:brad@footle.org"/>
 </XRD>
