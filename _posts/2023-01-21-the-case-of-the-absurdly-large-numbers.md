@@ -11,7 +11,7 @@ This value was coming from our frontend performance metrics-logging code, and is
 
 We were only seeing this on a small percentage of visitors to the site—less than 0.1%. I looked at the web browsers logging these huge values and couldn't see any obvious pattern.
 
-My first thought was that we had code somewhere that was concatenating numbers as strings. In JavaScript if you start with a string and add numbers to it, you get concatenated numbers. E.g.:
+My first thought was that we had code somewhere that was concatenating numbers as strings. In JavaScript, if you start with a string and add numbers to it, you get concatenated numbers. E.g.:
 
 ```javascript
 > "" + 123 + 456
@@ -55,6 +55,6 @@ Now [encodedBodySize is an `unsigned long long`](https://www.w3.org/TR/resource-
 I started digging through browser source code. I found that in WebKit, [the default value for `responseBodyBytesReceived`](https://github.com/WebKit/WebKit/blob/5f39acd5d511b9b48d7681413534d6d14f8117e5/Source/WebCore/platform/network/NetworkLoadMetrics.h#L109) is 2<sup>64</sup>-1, although [that value should be caught and 0 returned instead](https://github.com/WebKit/WebKit/blob/3a95196448a44d0b61cdd5e4825c22328cf90b26/Source/WebCore/page/PerformanceResourceTiming.cpp#L296-L297).
 
 
-Then I went spelunking in the Chromium source, and found [this commit](https://github.com/chromium/chromium/commit/a378e342dd91b17f9d9fd9a95b382ac94da26875), from less than two weeks ago. (Although [the bug was reported back in May 2022](https://bugs.chromium.org/p/chromium/issues/detail?id=1324812).) Boom! Mystery solved.
+Then I went spelunking in the Chromium source, and found [this commit](https://github.com/chromium/chromium/commit/a378e342dd91b17f9d9fd9a95b382ac94da26875), from less than two weeks ago. (Although [the bug was reported back in May 2022](https://bugs.chromium.org/p/chromium/issues/detail?id=1324812).) Sure enough, it was a default value of -1 getting cast to an unsigned value. Boom! Mystery solved.
 
 I pushed a fix to our JavaScript to catch these bogus values and hopefully our protos will live happily ever after. Gone are my dreams of finding and fixing a major browser bug, but I'm happy that I can move on with my life.
