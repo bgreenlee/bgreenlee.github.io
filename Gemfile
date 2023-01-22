@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'github-pages'
-gem 'gsl', '~> 2.1', '>= 2.1.0.3' # needs gsl: brew install gsl
+gem 'gsl', git: 'git@github.com:SciRuby/rb-gsl.git', ref: '103a3e1' # needs gsl: brew install gsl
 gem 'sprockets', '~> 3.0'
 gem 'classifier-reborn'
 gem 'jekyll-paginate'
