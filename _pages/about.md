@@ -3,12 +3,11 @@ layout: page
 title: About
 ---
 
-I'm Brad Greenlee, a software developer living in the Seattle area and
-working at [Etsy](https://etsy.com).
+I'm Brad Greenlee, an independent software developer living in the Seattle area.
 
-![The Girls on Vashon Island](/public/images/girls_vashon.jpg)
+![The Kids on Vashon Island](/public/images/girls_vashon.jpg)
 
-Feel free to [email me](mailto:brad@footle.org). Some other places you can   stalk me: [Mastodon](https://fiasco.social/@brad), [Github](https://github.com/bgreenlee), [LinkedIn](http://www.linkedin.com/in/bgreenlee).
+Feel free to [email me](mailto:brad@footle.org). Some other places you can stalk me: [Mastodon](https://fiasco.social/@brad), [Github](https://github.com/bgreenlee), [LinkedIn](http://www.linkedin.com/in/bgreenlee).
 
 ## About the Site
 
