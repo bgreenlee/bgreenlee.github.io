@@ -5,7 +5,7 @@ title: About
 
 I'm Brad Greenlee, an independent software developer living in the Seattle area.
 
-![The Kids on Vashon Island](/public/images/girls_vashon.jpg)
+![The Kids on Vashon Island](/public/images/kids_vashon.jpg)
 
 Feel free to [email me](mailto:brad@footle.org). Some other places you can stalk me: [Mastodon](https://fiasco.social/@brad), [Github](https://github.com/bgreenlee), [LinkedIn](http://www.linkedin.com/in/bgreenlee).
 
