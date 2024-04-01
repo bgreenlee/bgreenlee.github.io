@@ -13,3 +13,5 @@ gem "addressable"
 gem "nokogiri"
 gem "rexml"
 
+
+gem "webrick", "~> 1.8"
