@@ -1,5 +1,5 @@
 ---
-title: "Automating STOP to end"
+title: "Automating STOP to End"
 date: 2024-03-31 17:48:17 -0700
 layout: post
 tags: ios shortcuts automation
