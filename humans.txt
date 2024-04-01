@@ -4,7 +4,7 @@
 /* ME */
   Brad Greenlee
   Email: brad@footle.org
-  Twitter: @bgreenlee
+  Mastodon: https://fiasco.social/@brad
   Github: bgreenlee
   Location: Seattle, WA
 
@@ -12,4 +12,3 @@
   Standards: HTML5, CSS3
   Components:
   Software: Jekyll
-  

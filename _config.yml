@@ -19,7 +19,7 @@ baseurl:          /
 timezone:         "America/Los_Angeles"
 author:
   name:           'Brad Greenlee'
-  url:            https://twitter.com/bgreenlee
+  url:            https://fiasco.social/@brad
   email:          brad@footle.org
 
 paginate:         5
