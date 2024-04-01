@@ -16,17 +16,17 @@ First, open the Shortcuts app.
 
 <p class="img-right">
 <img alt="Automation home screen" src="/public/images/stop-to-end/s2e02.jpeg">
-Hit the "Automation" tab at the bottom.
+Hit the <b>Automation</b> tab at the bottom.
 </p>
 
 <p class="img-right">
 <img alt="Create automation search page" src="/public/images/stop-to-end/s2e03.jpeg">
-Hit the plus (+) in the top right corner. Start typing "Message" in the search bar, and select Message.
+Tap the <b>plus (+)</b> in the top right corner. Start typing "Message" in the search bar, and select <b>Message</b>.
 </p>
 
 <p class="img-right">
 <img alt="Automation When screen" src="/public/images/stop-to-end/s2e04.jpeg">
-On the When page, hit Choose next to Message Contains.
+On the When page, hit <b>Choose</b> next to <b>Message Contains</b>.
 </p>
 
 <p class="img-right">
@@ -36,32 +36,32 @@ Type in the text to look for, such as "STOP to end". It appears to be case-insen
 
 <p class="img-right">
 <img alt="Automation When screen selecting Run Immediately" src="/public/images/stop-to-end/s2e06.jpeg">
-Hit Done and the back on the When page, select Run Immediately. Then hit Next in the top-right corner.
+Hit <b>Done</b> and back on the When page, select <b>Run Immediately</b>. Then tap <b>Next</b> in the top-right corner.
 </p>
 
 <p class="img-right">
 <img alt="When I Get a Message Containing... screen" src="/public/images/stop-to-end/s2e07.jpeg">
-Now select New Blank Automation.
+Now select <b>New Blank Automation</b>.
 </p>
 
 <p class="img-right">
 <img alt="When I Get a Message Containing... Add Action screen" src="/public/images/stop-to-end/s2e08.jpeg">
-Under Next Action Suggestions, you should see Send Message. (If not, hit Add Action and search for "Send Message".) Click Send Message.
+Under <b>Next Action Suggestions</b>, you should see <b>Send Message</b>. (If not, hit <b>Add Action</b> and search for "Send Message".) Tap <b>Send Message</b>.
 </p>
 
 <p class="img-right">
 <img alt="Send Message Action screen" src="/public/images/stop-to-end/s2e09.jpeg">
-Click on the "Message" field and type "STOP".
+Tap on the <b>Message</b> field and type "STOP".
 </p>
 
 <p class="img-right">
 <img alt="Send Message Recipients Shortcut Input" src="/public/images/stop-to-end/s2e10.jpeg">
-Now comes the first tricky part. Hold down on Recipients (long press) and select Shortcut Input. (If instead it pops open a "To:" page, you didn't hold down long enough. Cancel and try again.)
+Now comes the first tricky part. Hold down (long press) on <b>Recipients</b> and select <b>Shortcut Input</b>. (If instead it pops open a "To:" page, you didn't hold down long enough. Cancel and try again.)
 </p>
 
 <p class="img-right">
 <img alt="Send Message Recipients Shortcut Input Sender" src="/public/images/stop-to-end/s2e11.jpeg">
-Now the next tricky bit. Tap the "Shortcut Input" field and select Sender, then hit Done.
+Now the next tricky bit. Tap the <b>Shortcut Input</b> field and select <b>Sender</b>, then hit <b>Done</b>.
 </p>
 
 <p class="img-right">
