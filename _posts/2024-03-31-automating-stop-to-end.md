@@ -9,6 +9,8 @@ My friends Sunah Suh, [Anthony Hersey](https://github.com/stormsweeper), and I f
 
 Note that this is for iOS only. If someone with an Android phone wants to write up their process, I'd be happy to link to it.
 
+Also, this was done on iOS 17.4. Surely this process will change some day. If you notice something is off, <a href="mailto:brad@footle.org">let me know</a> and I'll update it.
+
 <p class="img-right">
 <img alt="Shortcuts home screen" src="/public/images/stop-to-end/s2e01.jpeg">
 First, open the Shortcuts app.
