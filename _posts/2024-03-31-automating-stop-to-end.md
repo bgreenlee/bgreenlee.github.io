@@ -13,17 +13,17 @@ Also, this was done on iOS 17.4. Surely this process will change some day. If yo
 
 <p class="img-right">
 <img alt="Shortcuts home screen" src="/public/images/stop-to-end/s2e01.jpeg">
-First, open the Shortcuts app.
+First, open the Shortcuts app and tap the <b>Automation</b> tab at the bottom.
 </p>
 
 <p class="img-right">
 <img alt="Automation home screen" src="/public/images/stop-to-end/s2e02.jpeg">
-Hit the <b>Automation</b> tab at the bottom.
+Tap the <b>plus (+)</b> in the top right corner.
 </p>
 
 <p class="img-right">
 <img alt="Create automation search page" src="/public/images/stop-to-end/s2e03.jpeg">
-Tap the <b>plus (+)</b> in the top right corner. Start typing "Message" in the search bar, and select <b>Message</b>.
+Start typing "Message" in the search bar, and select <b>Message</b>.
 </p>
 
 <p class="img-right">
