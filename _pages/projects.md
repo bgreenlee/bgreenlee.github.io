@@ -3,9 +3,25 @@ layout: page
 title: Projects
 ---
 
+#### [The License Plate Game](https://licenseplategame.fun) ([code](https://github.com/bgreenlee/license-plate-game))
+
+A web game where the challenge is to find as many words as possible containing the letters in the given license plate (in order!).
+
+#### [I Can't Even](https://apps.apple.com/us/app/i-cant-even-news-filter/id6738306756)
+
+Safari Extension (Mac & iOS) that lets you redact or hide content on web pages.
+
+#### [WallpaperInfo](https://github.com/bgreenlee/WallpaperInfo)
+
+A little Mac menu bar app to display the current aerial wallpaper description.
+
 #### [Spelling Beat](https://spellingbeat.com) ([code](https://github.com/bgreenlee/spelling-beat))
 
 A little serverless app to find solutions for the NYT's [Spelling Bee](https://www.nytimes.com/puzzles/spelling-bee) game.
+
+#### [Spelling Bee Bot](https://github.com/bgreenlee/spelling-bee-bot)
+
+Slack app for the NYT's [Spelling Bee](https://www.nytimes.com/puzzles/spelling-bee) game.
 
 #### [Sunrise in Your Menu Bar](https://apps.apple.com/us/app/sunrise-in-your-menu-bar/id1548227736?mt=12)
 
