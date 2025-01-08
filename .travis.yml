@@ -1,8 +1,8 @@
 language: ruby
 rvm:
-  - 2.7.2
+  - 3.3.2
 before_install:
-  - sudo apt-get -qq update
-  - sudo apt-get install -y libgsl0-dev
-  - sudo apt-get install -y gsl-bin
+  # - sudo apt-get -qq update
+  # - sudo apt-get install -y libgsl0-dev
+  # - sudo apt-get install -y gsl-bin
 script: "bundle exec jekyll build"
