@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'github-pages'
+git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
+
+gem 'github-pages', group: :jekyll_plugins
 # gem 'gsl', git: 'git@github.com:SciRuby/rb-gsl.git' # needs gsl: brew install gsl
 gem 'sprockets'
 gem 'classifier-reborn'
