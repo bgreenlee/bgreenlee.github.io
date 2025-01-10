@@ -15,7 +15,7 @@ title:            footle
 tagline:          'Brad Greenlee writes here'
 description:      '(intr.v.) 1. To waste time; trifle. 2. To talk nonsense. (n.) Nonsense; foolishness'
 url:              https://footle.org
-baseurl:          https://footle.org
+baseurl:          ""
 timezone:         "America/Los_Angeles"
 author:
   name:           'Brad Greenlee'
