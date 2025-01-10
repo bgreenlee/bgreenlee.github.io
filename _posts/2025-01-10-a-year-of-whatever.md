@@ -15,7 +15,7 @@ I spent a couple months with [Wikimedia Foundation](https://wikimediafoundation.
 
 That was followed a by a much bigger consulting opportunity, which lead to starting [another LLC with some friends](https://fiasco.partners). We spend about six months tackling a pretty hairy data engineering challenge. What I learned from that is if you see NetSuite, run.
 
-Around the paid gigs I also spent some time helping out one friend with their [startup](https://comprendo.dev) and another with his [app](https://museumistic.app).
+Around the paid gigs I also spent some time helping out one friend with their [startup](https://comprendo.dev),  another with his [app](https://museumistic.app), and wrote a web app to help another friend give away [free bikes to kids](https://www.eastbaykidicalmass.org).
 
 I've been keeping myself pretty busy since that last gig ended. I spent a good amount of time doing a deep dive into [MacOS aerial screensavers/wallpapers](https://github.com/bgreenlee/WallpaperInfo). I wrote a [Safari extension to redact news articles](https://apps.apple.com/us/app/i-cant-even-news-filter/id6738306756). I wrote a [little web game](https://licenseplategame.fun). I also spent a good amount of December doing [Advent of Code](https://adventofcode.com), working on my Swift and SwiftUI skills in the process.
 
