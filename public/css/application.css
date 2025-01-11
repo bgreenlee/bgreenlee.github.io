@@ -7,3 +7,7 @@ p.img-right img {
     float: right;
     margin: 0 0 1em 1em;
 }
+
+ul.external-links { margin-top: 1rem; list-style: none; padding-left: 0;}
+ul.external-links li { display: inline-block;}
+ul.external-links svg { margin: 0 0 1rem; }
