@@ -1,8 +1,8 @@
 ---
 title: "Migrating GitHub Pages to Cloudflare"
-date: 2025-01-13 08:00:00 -0800
+date: 2025-01-14 07:30:00 -0800
 layout: post
-tags: github cloudflare draft
+tags: github cloudflare
 ---
 
 Or, On Becoming a Cloudflare Fanboy.
