@@ -11,7 +11,7 @@ Or, On Becoming a Cloudflare Fanboy.
 
 I'd been using GitHub Pages for hosting static sites, including this one, for years. It's easy and free-ish (I believe they're free for public repos, and if you're paying $4/mo, private repos as well).
 
-One thing you don't get, though, is any kind of visitor metrics. I know I can get this if I add something like Google Analytics to my sites, but I'm loathe to do that for a number of reasons. For one, to be [GDPR compliant](https://gdpr.eu/cookies/), I'd have to add one of those annoying cookie banners to all my sites. Also, ad blockers can block the GA Javascript and skew results. Finally, I don't want to have to add the GA code to every site.
+One thing you don't get, though, is any kind of visitor metrics. I know I can get this if I add something like Google Analytics to my sites, but I'm loath to do that for a number of reasons. For one, to be [GDPR compliant](https://gdpr.eu/cookies/), I'd have to add one of those annoying cookie banners to all my sites. Also, ad blockers can block the GA Javascript and skew results. Finally, I don't want to have to add the GA code to every site.
 
 If I were hosting the sites myself, I could get the information I need from the web server logs, but if GitHub is hosting the content, they have that info—but they aren't sharing it.
 
@@ -37,4 +37,4 @@ Nothing. It's all free...which has been bugging me a bit. Other than registrar f
 
 ## Fingers Crossed
 
-I do feel a little nervous about going all-in on Cloudflare, as I would going all-in with any company/service, but I've been really impressed with them so far. They've had some [controveries](https://en.wikipedia.org/wiki/Cloudflare#Controversies) in the past, but generally seem like a pretty good company, both technically and ethically. I'll certainly keep you posted if anything changes.
+I do feel a little nervous about going all-in on Cloudflare, as I would going all-in with any company/service, but I've been really impressed with them so far. They've had some [controversies](https://en.wikipedia.org/wiki/Cloudflare#Controversies) in the past, but generally seem like a pretty good company, both technically and ethically. I'll certainly keep you posted if anything changes.
