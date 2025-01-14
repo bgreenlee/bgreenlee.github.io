@@ -23,6 +23,8 @@ Turns out it's super easy to use: just point it to your GitHub repo, tell it wha
 
 The analytics it gives you is decent: total requests, unique visitors, bandwidth, % cached, requests by country/region, etc. You can even see breakdown by source IP, browsers, OS, desktop vs mobile (although oddly it's under the Security section, not Analytics).
 
+One thing that seems to be missing is a breakdown of traffic by page. It would be nice to see, for example, if particular blog posts are getting more traffic than others, but I'm not seeing that data anywhere.
+
 ## Going All-In
 
 After moving a few of my sites over and being generally impressed with the Cloudflare experience, I decided to go all-in and consolidate all my domains (more than 20...yes, I have a domain problem) under Cloudflare. This meant having them be my registrar, DNS, and, where appropriate, hosting the content. Previously my domains were spread out among a few different registrars, and my DNS split between registrars, Digital Ocean, and Cloudflare. Having everything under one roof made a lot of sense.
