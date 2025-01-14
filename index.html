@@ -5,6 +5,8 @@ title: Home
 
 <div class="posts">
   {% for post in paginator.posts %}
+  {% if post.tags contains 'draft' %}
+  {% else %}
   <div class="post">
     <h1 class="post-title">
       <a href="{% if post.remote_url %}{{ post.remote_url }}{% else %}{{ post.url }}{% endif %}" rel="bookmark" title="link to this post">
@@ -28,6 +30,7 @@ title: Home
     </div>
     {{ post.content }}
   </div>
+  {% endif %}
   {% endfor %}
 </div>
 

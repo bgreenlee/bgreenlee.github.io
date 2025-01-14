@@ -12,5 +12,8 @@ title: Archive
 <h1 class="page-title">Archive</h1>
 
 {% for post in site.posts %}
-  {% include archive-single.html %}
+  {% if post.tags contains 'draft' %}
+  {% else %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
