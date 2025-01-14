@@ -21,6 +21,8 @@ I'd been using Cloudflare for a while, as early on it was the only way to enable
 
 Turns out it's super easy to use: just point it to your GitHub repo, tell it what branch you want to deploy from and if there's any build commands you want to run (plus other optional settings like output directory, environment variables,etc.), and it will publish your site on a `pages.dev` subdomain. Then you can add your own domain name via a CNAME record to that subdomain. If Cloudflare is hosting your DNS it will even update your records for you. And everything gets SSL.
 
+(Another advantage of Cloudflare's Pages offering is I can easily set up a dev/staging site by just creating another Pages site and pointing it to a branch in my repo.)
+
 The analytics it gives you is decent: total requests, unique visitors, bandwidth, % cached, requests by country/region, etc. You can even see breakdown by source IP, browsers, OS, desktop vs mobile (although oddly it's under the Security section, not Analytics).
 
 One thing that seems to be missing is a breakdown of traffic by page. It would be nice to see, for example, if particular blog posts are getting more traffic than others, but I'm not seeing that data anywhere.
