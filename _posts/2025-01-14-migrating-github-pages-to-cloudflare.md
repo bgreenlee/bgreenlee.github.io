@@ -25,7 +25,7 @@ Turns out it's super easy to use: just point it to your GitHub repo, tell it wha
 
 The analytics it gives you is decent: total requests, unique visitors, bandwidth, % cached, requests by country/region, etc. You can even see breakdown by source IP, browsers, OS, desktop vs mobile (although oddly it's under the Security section, not Analytics).
 
-One thing that seems to be missing is a breakdown of traffic by page. It would be nice to see, for example, if particular blog posts are getting more traffic than others, but I'm not seeing that data anywhere.
+One thing that seems to be missing is a breakdown of traffic by page. It would be nice to see, for example, if particular blog posts are getting more traffic than others, but I'm not seeing that data anywhere. **Update:** [They do have this](https://developers.cloudflare.com/web-analytics/get-started/), in a separate section (they really need a good UX person to clean up their menus), and it has to be enabled per site. If you are using their DNS proxy, it will automatically inject their Javascript into your site. Otherwise you can manually insert their JS snippet. They don't use cookies, and it doesn't look like they are exposing IP addresses anywhere, so no GDPR concerns.
 
 ## Going All-In
 
