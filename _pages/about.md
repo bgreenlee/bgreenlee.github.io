@@ -19,4 +19,4 @@ Feel free to [email me](mailto:brad@footle.org). Some other places you can stalk
 
 The word [footle](http://www.wordnik.com/words/footle) popped up as a Word of the Day some years back and I thought it was appropriate for a personal site.
 
-This site is generated with [jekyll](http://jekyllrb.com), using the [Hyde](http://hyde.getpoole.com/) theme. It's hosted on [Github](https://github.com/bgreenlee/bgreenlee.github.io).
+This site is generated with [jekyll](http://jekyllrb.com), using the [Hyde](http://hyde.getpoole.com/) theme. It's hosted on [Cloudflare Pages](https://pages.cloudflare.com).
